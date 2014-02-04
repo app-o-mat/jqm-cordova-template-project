@@ -6,6 +6,15 @@ Pre-requisites
 ==============
 A working cordova toolchain with your platforms set up. See http://cordova.apache.org for installation instructions
 
+Dependencies
+============
+This template includes all dependencies in `www/lib`. They are:
+* jQuery from http://jquery.com
+* jQuery Mobile from http://jquerymobile.com
+* jQuery Mobile Router from https://github.com/azicchetti/jquerymobile-router
+* Handlebars from http://handlebarsjs.com
+* FastClick from https://github.com/ftlabs/fastclick
+
 Instructions
 ============
 1. Create your cordova app normally
