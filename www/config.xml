@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- 
+App-o-Mat jQuery Mobile Cordova starter template
+Copyright 2014 Lou Franco
+https://github.com/app-o-mat/jqm-cordova-template-project
+http://app-o-mat.com
+
+MIT License
+https://github.com/app-o-mat/jqm-cordova-template-project/LICENSE.md
+-->
+
+<!-- change the widget id to your id and update the version as appropriate -->
+<widget id="com.app-o-mat.jqm-cordova-template-project" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+	<!-- Edit to match the details of your app -->
+    <name>jQM Starter App</name>
+    <description>
+        A template Apache Cordova application using jQuery Mobile
+    </description>
+    <author email="lou@app-o-mat.com" href="http://app-o-mat.com">
+        Lou Franco
+    </author>
+	<!-- END App Details -->
+
+    <content src="index.html" />
+    <access origin="*" />
+
+	<!-- uses cordova plugin add org.apache.cordova.statusbar to make iOS7 statusbar look right-->
+	<preference name="StatusBarOverlaysWebView" value="false" />
+	<!-- edit this to the background color of your app -->
+	<preference name="StatusBarBackgroundColor" value="#595b5b" />
+
+</widget>

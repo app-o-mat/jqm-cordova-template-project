@@ -1,0 +1,14 @@
+.DS_Store
+.cordova
+*.class
+*.ipa
+*.app
+*.a
+*.app.dSYM
+.staging
+
+*.apk
+*.apk.d
+*.ap_
+*.ap_.d
+platforms/android/bin/*
