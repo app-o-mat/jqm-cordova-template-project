@@ -6,7 +6,7 @@
 *.a
 *.app.dSYM
 .staging
-
+*.tmproj
 *.apk
 *.apk.d
 *.ap_
