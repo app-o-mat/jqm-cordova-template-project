@@ -37,7 +37,7 @@ Instructions
 
 2. Copy the `www` subdirectory from this project, overwriting the default one
 
-3. Edit `www/config.xml` (follow the comments). Match widget id to the one in `cordova create`
+3. Edit `www/config.xml` (follow the comments). Match widget id to the one in `cordova create`. [Note: for Cordova 3.5, the `config.xml` was moved from www to the root of the project.  In 3.5, move the one from `www` over the one in the project root, and then edit it there]
 
 4. Run the app
 
@@ -53,3 +53,4 @@ Instructions
     cordova build ios
     cordova run ios
     ```
+
