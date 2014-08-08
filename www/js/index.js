@@ -12,7 +12,10 @@ var appomat = {};
 appomat.app = {
 	
     initialize: function() {
-		document.addEventListener('deviceready', this.onDeviceReady, false);
+        var self = this;
+        document.addEventListener('deviceready', function(){
+            self.onDeviceReady();
+        }, false);
     },
 
     onDeviceReady: function() {
