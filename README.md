@@ -36,20 +36,20 @@ Instructions
 
 2. Copy the `www` subdirectory from this project, overwriting the default one
 
-3. Edit `www/config.xml` (follow the comments). Match widget id to the one in `cordova create`. [Note: for Cordova 3.5, the `config.xml` was moved from www to the root of the project.  In 3.5, move the one from `www` over the one in the project root, and then edit it there]
+3. Edit `config.xml` (follow the comments).
 
 4. Run the app
 
     ```bash
     # In a browser
-    cordova serve
-    # Then, navigate to http://localhost:8000/ios/www/ (replace `ios` with any platform you installed)
+    cordova run browser
     
     # In an emulator (replace `ios` with an installed platform)
-    cordova emulate ios
-    
-    # On the device (replace `ios` with an installed platform)
-    cordova build ios
-    cordova run ios
+
+    # Get a list of iOS simulators and devices
+    cordova run ios --list
+
+    # Run it using one of the choices in the above list
+    cordova run ios --target='iPhone-8, 11.2'
     ```
 
