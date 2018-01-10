@@ -1,6 +1,6 @@
 jqm-cordova-template-project
 ============================
-A cordova project using jQuery Mobile suitable for starting a new app. Learn how this template works on http://app-o-mat.com
+A cordova project using jQuery Mobile suitable for starting a new app. Learn how this template works on https://app-o-mat.com/video-series/jquery-mobile-cordova-template
 
 Pre-requisites
 ==============
